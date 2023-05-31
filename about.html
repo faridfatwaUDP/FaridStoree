@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+.column {
+  float: left;
+  width: 33.3%;
+  margin-bottom: 16px;
+  padding: 0 8px;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  margin: 8px;
+}
+
+.about-section {
+  padding: 50px;
+  text-align: center;
+  background-color: #474e5d;
+  color: white;
+}
+
+.container {
+  padding: 0 16px;
+}
+
+.container::after, .row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.title {
+  color: grey;
+}
+
+.button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+}
+
+.button:hover {
+  background-color: #555;
+}
+
+@media screen and (max-width: 650px) {
+  .column {
+    width: 100%;
+    display: block;
+  }
+}
+</style>
+</head>
+<body>
+
+<div class="about-section">
+  <h1>About Us Farid Store</h1>
+  <p>Assalamualaikum, salam! Hi semuanya!</p>
+
+    Makin ke sini dunia makin modern, ngga akan nunggu yang ngga mau belajar. Startup digital terus berjamuran, usaha-usaha tradisional mulai bingung dengan kehadiran internet. Kebutuhan programmer makin meningkat, secara kuantitas apalagi kualitas. Indonesia akan duduk di bangku penonton lagi kalau ngga ada yang mulai serius terjun ke dunia programming. <p>
+    Saya ngga berharap dalam waktu singkat, mungkin butuh beberapa bulan bahkan tahun untuk ngelihat hasilnya, tapi kalau ngga dimulai, jangan sampai kita hanya menyesal dan mengeluh di bagian akhir. Teman-teman bisa mulai membuat karya yang menyelesaikan berbagai masalah di Indonesia bahkan dunia, atau saling mendukung, bekerja di tempat yang sudah lebih dulu berjuang menyelesaikan masalah tertentu.
+    
+    Bukan cuman skill koding, saya juga bikin podcast dan nulis di blog, gimana terus jadi lebih baik sebagai manusia yang bisa ngasih manfaat luas, bukan sekedar programmer.
+    
+    Walaupun bukan expert, tapi saya akan bantu teman-teman bikin sesuatu yang bermanfaat. Semoga ini bisa berpengaruh positif ke dunia programming dan ekonomi di Indonesia, Mohon doa & dukungan teman-teman biar tujuannya bisa tercapai. Selamat berkarya, nikmati prosesnya!</p>
+</div>
+
+<h2 style="text-align:center">Team Kami </h2>
+<div class="row">
+  <div class="column">
+    <div class="card">
+      <div class="container">
+        <img src="images/about/me.jpg" height="200"  width="200" alt="">
+        <h2>Muh. Farid Fatwa</h2>
+        <p class="title">CEO & Founder</p>
+        <p>Pemimpin sekaligus pendiri Farid Store</p>
+        <p>farid,fatwa20@gmail.com</p>
+        <p>
+          <a href="https://web.whatsapp.com/send?phone=6285333762426">
+            <button>Hubungi</button>
+          </a>
+      </div>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="card">
+      <div class="container">
+        <img src="images/about/am.jpg" height="200"  width="200" alt="">
+        <h2>Muh. Mursyid</h2>
+        <p class="title">Art Director</p>
+        <p>Perancang dan pengembangan web Farid Store</p>
+        <p>mursid886@gmail.com</p>
+        <p>
+          <a href="https://web.whatsapp.com/send?phone=6282277874638">
+            <button>Hubungi</button>
+          </a>
+        
+        </div>
+      </div>
+    </div>
+  
+  <div class="column">
+    <div class="card">
+      <div class="container">
+        <img src="images/about/she.jpg" height="200"  width="200" alt="">
+        <h2>Nur Zahra</h2>
+        <p class="title">Designer</p>
+        <p>Pendesain dan marketer Farid Store</p>
+        <p>sarah71@gmail.com</p>
+        <p>
+          <a href="https://web.whatsapp.com/send?phone=6281341277734">
+            <button>Hubungi</button>
+          </a>
+      </div>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>
